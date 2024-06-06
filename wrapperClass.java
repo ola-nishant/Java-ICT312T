@@ -26,5 +26,9 @@ public class wrapperClass {
         Integer int2 = 12345;
         System.out.println(int1.compareTo(int2));
         //many other functions    
+
+        //immutability
+        Integer int3 = 1234;
+        int3 = 12345;//new Integer is created and int3 points to that. original 1234 is collected by gc
     }
 }
