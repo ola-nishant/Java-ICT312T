@@ -8,3 +8,5 @@ public final class finalKeyword {
         obj.printPi();
     }
 }
+//for primitive dataypes it prevents reassignment
+//for objects it prevents reassignment of reference but the object can be modified

@@ -9,6 +9,7 @@ interface Connectable {
 
 class Smartphone implements Chargeable, Connectable {
     @Override
+    //MUST DECLARE PUBLIC
     public void charge() {
         System.out.println("Smartphone is charging");
         System.out.println("Phone battery is: "+ battery);
